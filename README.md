@@ -4,7 +4,7 @@
 git remote set-url origin git@github.com:<user-name>/<repository-name>.git
 <!-- GitHub provides a special no-reply email address that you can use for commits, which will prevent your actual email address from being exposed. -->
 git config --global user.email <git provided email from settings/emails>
-<!-- in the command palette, type 'preferences: open remote settings (json) -->
+<!-- add this to settings (json) -->
 "git.ssh.path": "/usr/bin/ssh"
 
 2.  to create a new repository on the command line
